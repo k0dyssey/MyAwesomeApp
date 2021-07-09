@@ -1,0 +1,53 @@
+body {
+  padding-top: 56px;
+  position: relative;
+}
+
+.Intro {
+  color: rgb(59, 58, 58);
+  background-color: rgba(230, 230, 230, .6);
+}
+
+.Welcome {
+  align-content: center;
+}
+
+.bg-img {
+  background-image: url("/Users/k0dyssey/Library/Mobile Documents/com~apple~CloudDocs/Programming/6-Bootstrap/img/main.jpg");
+  background-size: cover;
+  background-position: center 60%;
+}
+
+.register {
+  background-color: rgb(242, 243, 245);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+}
+
+.body_1 {
+  text-align: center;
+}
+
+.cardbox {
+  justify-content: center;
+}
+
+#footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgb(255, 192, 7);
+  padding: 150px 0;
+}
+
+footer {
+  padding: 20px 0;
+  color: rgba(59, 58, 58, .6);
+  background-color: rgba(230, 230, 230, .6);
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+

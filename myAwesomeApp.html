@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Awesome App</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/Users/k0dyssey/Library/Mobile Documents/com~apple~CloudDocs/Programming/6-Bootstrap/myAwesomeApp.html">
+            My Awesome App
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#navbar-example01">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#navbar-example02">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Download The App</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div class="p-3 p-sm-5 mb-4 bg-img" id="navbar-example01">
+      <div class="Intro container">
+        <div class="row">
+          <div class="Welcome col-sm-7">
+            <div>
+              <h1 class="title1 display-1 " style="font-family: 'Nunito', sans-serif;">My Awesome App!</h1>
+              <p class="lead">This is what everyone wants!!</p>
+              <hr class="my-4">
+              <p class=lead>Wanna know more? Join our mailing list!</p>
+            </div>
+          </div>
+          
+          <div class="register col-sm-5">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputFirstname" class="form-label">First name</label>
+                <input type="text" class="form-control" id="inputFirstname">
+              </div>
+              <div class="col-md-6">
+                <label for="inputLastname" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="inputLastname">
+              </div>
+              <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign up NOW!!!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="body_1 container-fluid" id="navbar-example02">
+      <div>
+        <h1 class="display-5" style="font-family: 'Open Sans', sans-serif;">Why This App Is Awesome</h1>
+        <p class="lead">Better Office, Better Experience, Better Products</p>
+      </div>
+      <div class="cardbox row">
+        <div class="card col-sm-4" style="width: 18rem;">
+          <img src="img/office01.jpg" width="18rem" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card col-sm-4" style="width: 18rem;">
+          <img src="img/office02.jpg" width="18rem" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card col-sm-4" style="width: 18rem;">
+          <img src="img/office03.jpg" width="18rem" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="row">
+        <h2>Download the App NOW!!</h2>
+        <p class="lead">Why Should I Download This App?</p>
+        <p>
+          <a href="#">
+            <img src="img/App-Store-Icon.png" width="200px" alt="...">
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy;Highkey's Co.,Ltd.</p>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
